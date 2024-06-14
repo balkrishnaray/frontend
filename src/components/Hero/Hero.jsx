@@ -1,8 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import arrow_icon from '../Assets/arrow.png'
-import leaves from '../Assets/leaves.png'
-import leaves_wire from '../Assets/leaves-wire.png'
+
  
 export const Hero = () => {
   return (
@@ -23,7 +22,7 @@ export const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-           <img className='leaves-first' src={leaves_wire} style={{height:"650px", weight:"550px"}}  alt="" />
+           {/* <img className='leaves-first' src={leaves_wire} style={{height:"650px", weight:"550px"}}  alt="" /> */}
            {/* <img className='leaves-second' src={leaves} style={{height:"150px", weight:"150px"}} alt="" />
            <img className='leaves-third' src={leaves} style={{height:"150px", weight:"150px"}} alt="" />
            <img className='leaves-fouth' src={leaves} style={{height:"150px", weight:"150px"}} alt="" />
