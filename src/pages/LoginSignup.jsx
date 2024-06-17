@@ -10,8 +10,7 @@ export const LoginSignup = () => {
         <input type="text" placeholder='Your Name' />
         <input type="email" placeholder='Your Email' />
         <input type="password" placeholder='Your Password' />
-
-      </div>
+        </div>
       <button>Continue</button>
       <p className="loginsignup-login">Already Have an account? <span>Login here</span></p>
       <div className="loginsignup-agree">

@@ -8,8 +8,8 @@ export const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-logo">
-            <img src={footer_logo} style={{width: '200px', height: '200px', borderRadius:'150px'}} alt="" />
-            <p>PRICA</p>
+            <img src={footer_logo}  alt="" />
+            <p>BALA</p>
         </div>
         <ul className='footer-links'>
        <li>Company</li>
